@@ -1,0 +1,77 @@
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  height: 600px;
+  width: 60%;
+  background-color: #b1a9a9;
+  box-shadow: 5px 5px 10px #5f5e5e;
+  display: flex;
+}
+
+.login-boxes {
+  height: 600px;
+  width: 50%;
+  background-color: rgb(46, 46, 46);
+  padding: 20px;
+}
+
+.login-left {
+  background-image: url("../../assets/pexels-cottonbro-3943746.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-heading {
+  font-size: 25px;
+  color: rgb(173, 173, 170);
+  /* text-align: center; */
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.login-btn {
+  border: none;
+  background-color: royalblue;
+  color: white;
+  font-size: 15px;
+}
+
+.login-btn:hover {
+  background-color: rgb(98, 137, 121);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.register-link {
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(173, 173, 170);
+}
+
+.image-preview {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
