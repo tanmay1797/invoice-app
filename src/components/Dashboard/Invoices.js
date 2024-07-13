@@ -92,7 +92,7 @@ function Invoices() {
               <p>You have no invoice till now</p>
               <button
                 onClick={() => {
-                  navigate("/dashboard/new-invoice");
+                  navigate("/dashboard/newinvoice");
                 }}
               >
                 Create New Invoice
